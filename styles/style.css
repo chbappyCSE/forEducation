@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Google Fonts End */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+  border: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+/* Browser Reseat CSS End */
+.header_topbar {
+  padding: 10px 0px;
+  background: #fdc800;
+}
+
+.header_topbar .top_left a {
+  color: #002147;
+  font-size: 14px;
+  font-weight: 300;
+  margin-right: 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header_topbar .top_left a:hover {
+  color: #00b2b2;
+}
+
+.header_topbar .top_right a {
+  color: #002147;
+  margin-left: 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header_topbar .top_right a:hover {
+  color: #00b2b2;
+}
+
+.mainmenu {
+  background: #f0f4f9;
+}
+
+.mainmenu .nav-item .nav-link {
+  color: #002147;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.mainmenu .nav-item .nav-link:hover, .mainmenu .nav-item .nav-link.active {
+  color: #00b2b2;
+}
+
+.mainmenu .warning_btn {
+  padding: 7px 20px;
+  background: #fdc800;
+  border-radius: 3px;
+  color: #002147;
+  font-weight: 200;
+  font-size: 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.mainmenu .warning_btn:hover {
+  color: #fff;
+  background: #00b2b2;
+}
+
+.mainmenu .btn_search {
+  padding: 7px 10px;
+  background: #fff;
+  display: inline-block;
+  margin-left: 10px;
+  border-radius: 3px;
+  border: 1.5px solid #bdbdbd;
+  font-size: 14px;
+  color: #002147;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.mainmenu .btn_search:hover {
+  background: transparent;
+}
+
+/* Header End */
+.hero {
+  padding: 60px 0px;
+  background: #f0f4f9;
+}
+
+.hero .hero_left {
+  padding-top: 60px;
+}
+
+.hero .hero_left h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.hero .hero_left h1 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.hero .hero_left .herobtn a {
+  padding: 7px 20px;
+  background: #fdc800;
+  border-radius: 3px;
+  color: #002147;
+  font-weight: 200;
+  font-size: 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-right: 5px;
+}
+
+.hero .hero_left .herobtn a:hover {
+  color: #fff;
+  background: #00b2b2;
+}
+
+@media (max-width: 991.98px) {
+  .hero {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .small_logo {
+    width: 50%;
+  }
+  .hero {
+    text-align: center;
+  }
+  .hero .hero_left h3 {
+    font-size: 20px;
+  }
+  .hero .hero_left h1 {
+    font-size: 40px;
+  }
+  .togglebtn {
+    position: absolute;
+    right: 4%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
